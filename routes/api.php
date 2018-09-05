@@ -13,6 +13,17 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+// Laravel generated
+/*
+Route::middleware()->get('/user', function (Request $request) {
     return $request->user();
-});
+});*/
+/*
+Route::group(["domain" => "api.playground.test"], function (){
+    Route::middleware()->get('/tin', function () {
+        return response("Hello there");
+    });
+});*/
+
+
+

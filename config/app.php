@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Africa/Dar_es_Salaam',
 
     /*
     |--------------------------------------------------------------------------
@@ -124,6 +124,9 @@ return [
         /*
          * Laravel Framework Service Providers...
          */
+        // Password
+        Laravel\Passport\PassportServiceProvider::class,
+
         Illuminate\Auth\AuthServiceProvider::class,
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
         Illuminate\Bus\BusServiceProvider::class,
